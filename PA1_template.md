@@ -1,4 +1,9 @@
-# Reproducible Research: Peer Assessment 1
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
 
 
 ## Loading and preprocessing the data
@@ -55,7 +60,7 @@ qplot(stepsPerDay$steps,
       ylab = "Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
 
 Finally, here are the mean and median of the total number of steps taken in a day.
 
@@ -102,7 +107,7 @@ plot(as.numeric(as.character(dailyActivity$interval)),
      ylab = "average number of steps taken (across all days)")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png) 
 
 Let's now find the time interval in dailyActivity that corresponds to the maximum number of steps taken.
 
@@ -167,7 +172,7 @@ qplot(stepsPerDay2$steps,
       ylab = "Frequency")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
 
 Finally, here are the mean and median of the total number of steps taken each day.
 
@@ -233,4 +238,4 @@ plot(weekendActivity, type = "l",
      main = "Weekends")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-17-1.png) 
+![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17-1.png) 
